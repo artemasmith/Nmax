@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+$LOAD_PATH << './lib'
+
+require "n_max"
+require 'n_max/bench'
+
+count = ARGV[0].to_i
+
+return "Please provide a valid number of N max elements" if count <= 0
+Bench.print_memory_usage do
+  Bench.print_time_spent do
+    puts NMax.show_n_max($stdin.readlines, count)
+  end
+end
