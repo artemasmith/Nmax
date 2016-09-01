@@ -5,7 +5,6 @@ For example:
 
 cat sample_data_40GB.txt | nmax 10000 
 
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -35,7 +34,6 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/artemasmith/n_max.
-
 
 ## License
 
