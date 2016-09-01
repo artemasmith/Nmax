@@ -1,4 +1,4 @@
-https://travis-ci.org/artemasmith/Nmax.svg?branch=master
+<img src="https://travis-ci.org/artemasmith/Nmax.svg" alt="build:started">
 
 # NMax
 
