@@ -1,8 +1,10 @@
 # NMax
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/n_max`. To experiment with that code, run `bin/console` for an interactive prompt.
+Test gem for Fun-Box. It gets max N numbers from an provided list.
+For example:
 
-TODO: Delete this and the text above, and describe your gem
+cat sample_data_40GB.txt | nmax 10000 
+
 
 ## Installation
 
@@ -22,7 +24,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+cat sample_data_40GB.txt | nmax 10000 
 
 ## Development
 
@@ -32,7 +34,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/n_max.
+Bug reports and pull requests are welcome on GitHub at https://github.com/artemasmith/n_max.
 
 
 ## License
