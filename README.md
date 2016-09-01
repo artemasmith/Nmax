@@ -1,3 +1,5 @@
+https://travis-ci.org/artemasmith/Nmax.svg?branch=master
+
 # NMax
 
 Test gem for Fun-Box. It gets max N numbers from an provided list.
