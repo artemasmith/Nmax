@@ -5,6 +5,8 @@ require "n_max"
 
 count = ARGV[0].to_i
 
-return "Please provide a valid number of N max elements" if count <= 0
-
-puts NMax.show_n_max($stdin.readlines, count)
+if count <= 0
+  puts "Please provide a valid number of N max elements" 
+else
+  puts NMax.show_n_max($stdin.readlines, count)
+end
